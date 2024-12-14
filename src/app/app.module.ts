@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { AccordianComponent } from './accordian/accordian.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    DialogComponent
+    DialogComponent,
+    AccordianComponent
   ],
   imports: [
     BrowserModule,
